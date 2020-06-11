@@ -7,7 +7,7 @@ const port = 7878;
 
 server.use(express.json());
 
-server.use(logger("long"));
+server.use(logger);
 
 server.use(userRouter);
 
